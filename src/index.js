@@ -24,7 +24,7 @@ app.use("/api/v1/question/", question);
 
 // Routes
 app.get("/", (req, res) => {
-  return res.send("Sunshine Server Running...!!");
+  return res.send("My Server Running...!!");
 });
 
 // Handle Not valid routes
